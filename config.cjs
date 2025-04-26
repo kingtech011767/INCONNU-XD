@@ -6,7 +6,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~UOlS3ZYZ#Q3aAZ312cIhMLFAsFEq_zT2oSpeHeDlA1vIwqqifm_0",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
@@ -23,12 +23,12 @@ const config = {
   
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "public",
-  BOT_NAME: process.env.BOT_NAME || "INCONNU-XD",
+  MODE: process.env.MODE || "privé",
+  BOT_NAME: process.env.BOT_NAME || "𝗠𝗥 𝗞1𝗡𝗚-𝚃𝙴𝙲𝙷",
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/230q0c.jpg",
-  DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO INCONNU-XD",
+  DESCRIPTION: process.env.DESCRIPTION || "adjeee ",
   OWNER_NAME: process.env.OWNER_NAME || "INCONNU-XD",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "50932295467",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
